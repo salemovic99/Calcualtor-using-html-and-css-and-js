@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: #e5e2f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: #2d1866e8;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+form input{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 16px rgb(37, 26, 99);
+    width: 60px;
+    height: 60px;
+    margin: 4px;
+    background-color: #2d1866;
+    font-size: 1.6em;
+    color: white;
+}
+
+form  input.display{
+    width: 290px;
+    background-color: transparent;
+    box-shadow: none;
+    color: white;
+    text-align: right;
+}
+
+form div input.equal{
+    width: 135px;
+}
